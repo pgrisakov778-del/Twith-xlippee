@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py
 version = 1.0
 
-requirements = python3,kivy,numpy,ffmpeg
+requirements = python3,kivy,numpy
 
 orientation = portrait
 fullscreen = 1
@@ -17,7 +17,6 @@ android.minapi = 24
 android.ndk = 25b
 
 p4a.bootstrap = sdl2
-p4a.local_recipes = ./recipes
 
 [buildozer]
 log_level = 1
